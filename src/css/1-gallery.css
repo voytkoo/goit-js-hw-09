@@ -1,0 +1,28 @@
+.gallery {
+    display: flex;
+    width: 1128px;
+    height: 696px;
+    padding: 24px 156px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.gallery-link-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+}
